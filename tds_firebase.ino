@@ -208,18 +208,18 @@ void loop(){
       delay(1000);
     }
   }
-  if (Firebase.RTDB.getInt(&fbdo, "/data/min")) {
-      if (fbdo.dataType() == "int") {
-        intValue = fbdo.intData();
-        Serial.println(intValue);
-      }
-    }
-    else {
-      Serial.println(fbdo.errorReason());
-    }
-  }
+//   if (Firebase.RTDB.getInt(&fbdo, "/data/min")) {
+//       if (fbdo.dataType() == "int") {
+//         intValue = fbdo.intData();
+//         Serial.println(intValue);
+//       }
+//     }
+//     else {
+//       Serial.println(fbdo.errorReason());
+//     }
+//   }
   //Program Pengkondisian Sinyal ppm
-  if(tdsValue <= intValue)
+  if(tdsValue <= 500)
   {
     ket = "KURANG NUTRISI";
     Firebase.RTDB.setInt(&fbdo, F("/data/status"), true) ? "ok" : fbdo.errorReason().c_str(); // Add status value ON
