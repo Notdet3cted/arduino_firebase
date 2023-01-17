@@ -1,5 +1,6 @@
 #include <LiquidCrystal_I2C.h> // include lcd library
-#include <WiFiManager.h>       // include wifi libarary
+#include <WiFiManager.h>
+#include <Arduino.h> // include wifi libarary
 
 #define TdsSensorPin 27
 #define VREF 3.3  // analog reference voltage(Volt) of the ADC
