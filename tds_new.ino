@@ -69,6 +69,11 @@ void setup()
 
     lcd.init();          
     lcd.backlight();
+    lcd.setCursor(0, 0);
+    lcd.print("Menunggu");
+    lcd.setCursor(0, 2);
+    lcd.print("Koneksi)");
+    delay(500);
     
     WiFiManager wm;
     bool res;
