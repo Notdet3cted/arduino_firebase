@@ -22,14 +22,14 @@
 #include <addons/RTDBHelper.h>
 
 /* 2. Define the API Key  */
-#define API_KEY "AIzaSyDKcOV8lOojlfBrPJQlgVV_fIrGHSFeTbY"
+#define API_KEY ""
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "skripsi-tds-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "heri@aa.com"
-#define USER_PASSWORD "123456"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 // Define Firebase Data object
 FirebaseData fbdo;
