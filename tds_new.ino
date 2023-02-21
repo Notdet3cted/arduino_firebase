@@ -32,14 +32,14 @@ String t;
 
 
 //Firebase---------
-#define FIREBASE_HOST "https://skripsi-tds-default-rtdb.firebaseio.com/"
-#define FIREBASE_AUTH "U67FiCow0MyyAvpEffjN70aMTroDZjpW9TjFK63x"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 FirebaseData firebaseData;  //Declare the Firebase Data object in the global scope
 FirebaseJson json;
 
 //WiFi
-//const char* ssid = "Redmi Note 10S";  //replace
-//const char* password =  "12345678"; //replace
+//const char* ssid = "";  //replace
+//const char* password =  ""; //replace
 
 float temperature = 25, tdsValue;
 
